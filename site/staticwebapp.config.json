@@ -1,0 +1,17 @@
+{
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "no-referrer"
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/report.json", "/report.sarif", "/*.{json,sarif}"]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  }
+}

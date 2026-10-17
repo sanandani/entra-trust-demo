@@ -2,6 +2,8 @@
 
 **v0.1** · Read-only scoring for Microsoft Entra workload identities · [Project homepage](https://imshubh.com)
 
+[![Live report](https://img.shields.io/badge/Live%20report-Azure%20Static%20Web%20Apps-2ea44f)](https://green-smoke-0a4dfac10.1.azurestaticapps.net)
+
 `aceu-entra-trust` scores application identities on Authenticity, Uniqueness, and Credibility (ACE-U). It reads saved Microsoft Graph JSON offline or queries Graph v1.0 with read permissions. It never changes tenant state. The score is a transparent triage aid, not a security certification.
 
 ## Install and run offline
